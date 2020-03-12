@@ -10,6 +10,6 @@ git checkout -f
 EOF
 chmod 755 ./.git/hooks/post-receive
 cd ..
-rm init.sh
+#rm init.sh
 rm README.TXT
 exit 0
