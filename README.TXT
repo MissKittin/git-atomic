@@ -7,3 +7,7 @@ Put files to the repo
 Push repo
 Run `deploy.sh your_app_version`
 Restart http server
+
+# Auto deploy
+add to init.sh in `gitAtomic_createHook()` after `git checkout -f`:
+if [ -e ../ready_to_deploy ]; then cd ../..; ./deploy.sh \$(cat ./dev/ready_to_deploy); fi
