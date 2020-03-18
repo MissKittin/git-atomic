@@ -1,5 +1,5 @@
 # gitAtomic
-Place this files in destination directory
+Place these files in destination directory
 Run init.sh
 Clone repo to the dev machine
 Put files to the repo
