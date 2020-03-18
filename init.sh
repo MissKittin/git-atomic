@@ -24,6 +24,7 @@ gitAtomic_firstTimeInit()
 	gitAtomic_createHook
 	cd ..
 	rm README.TXT
+	rm LICENSE
 }
 
 gitAtomic_renew()
